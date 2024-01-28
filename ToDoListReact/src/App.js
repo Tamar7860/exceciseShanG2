@@ -21,6 +21,7 @@ function App() {
     };
     await service.addTask(newItem);
     setNewTodo("");//clear input
+    console.log("craete to do");
     await getTodos();//refresh tasks list (in order to see the new one)
   }
 
