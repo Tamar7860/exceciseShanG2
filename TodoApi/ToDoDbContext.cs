@@ -22,18 +22,18 @@ namespace TodoApi
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("name=ToDoDB", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.35-mysql"));
+                optionsBuilder.UseMySql("name=ToDoDB", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.22-mysql"));
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.UseCollation("utf8mb4_0900_ai_ci")
-                .HasCharSet("utf8mb4");
+            modelBuilder.UseCollation("utf8_general_ci")
+                .HasCharSet("utf8");
 
             modelBuilder.Entity<Item>(entity =>
             {
-                entity.ToTable("item");
+                entity.ToTable("Item");
 
                 entity.Property(e => e.Name).HasMaxLength(100);
             });
