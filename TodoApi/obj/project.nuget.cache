@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W6RtgX4lwI+Wy/niQtYCPJzc6K81fDD9zSxfZH8d1ES0LLY1ElBXUkf0/exbQoxHurEFEkAdw4Ytzt+3uoh+uw==",
+  "dgSpecHash": "+pRYQdLSYlKitu8SFPdNym5Uq9+tiXpWHDo4gzBM/rLrO4zny527/4T4YUaA+7uRKBFD8ngGS2sBBHA2lIRPDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Documents\\ToDoListProject\\TodoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mysqlconnector\\2.0.0\\mysqlconnector.2.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.0\\pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore\\6.0.0\\swashbuckle.aspnetcore.6.0.0.nupkg.sha512",
