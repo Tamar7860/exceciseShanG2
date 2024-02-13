@@ -1,6 +1,6 @@
 import axios from 'axios';
 import  Item from './ItemModel.ts';
-const apiUrl = "http://localhost:5274";
+const apiUrl = process.env.REACT_APP_API_URL;
 axios.defaults.baseURL = apiUrl;
 
 // Add an interceptor to handle errors in the response
